@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al Amin Safwan — SEO & Backlink Specialist</title>
+<meta name="description" content="White-hat backlink building, guest posting, and off-page SEO by Al Amin Safwan. Manual outreach, real domains, transparent reporting.">
+
+<!-- ============================================================
+  EDIT ME: search this file for "EDIT:" comments to find every
+  spot you should personalize (email, WhatsApp, links, etc.)
+============================================================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg: #0B1220;
+    --bg-panel: #121B2E;
+    --bg-panel-2: #17233A;
+    --line: rgba(255,255,255,0.08);
+    --line-strong: rgba(255,255,255,0.16);
+    --text: #EDEFF5;
+    --text-muted: #94A3B8;
+    --text-faint: #5B6B85;
+    --link: #45D9C0;
+    --link-dim: rgba(69,217,192,0.35);
+    --accent: #F2A93B;
+    --radius: 14px;
+    --max: 1120px;
+  }
+
+  *{ box-sizing: border-box; margin:0; padding:0; }
+  html{ scroll-behavior: smooth; }
+  body{
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,h2,h3{ font-family: 'Space Grotesk', sans-serif; line-height: 1.15; letter-spacing: -0.01em; }
+  a{ color: inherit; text-decoration: none; }
+  .mono{ font-family: 'JetBrains Mono', monospace; }
+  .wrap{ max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+  img{ max-width: 100%; display:block; }
+
+  :focus-visible{ outline: 2px solid var(--link); outline-offset: 3px; }
+
+  /* ---------- NAV ---------- */
+  header{
+    position: sticky; top:0; z-index: 50;
+    background: rgba(11,18,32,0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav{ display:flex; align-items:center; justify-content:space-between; padding: 18px 24px; max-width: var(--max); margin:0 auto; }
+  .logo{ font-family:'Space Grotesk', sans-serif; font-weight:700; font-size: 1.15rem; letter-spacing: -0.01em; display:flex; align-items:center; gap:8px;}
+  .logo-dot{ width:8px; height:8px; border-radius:50%; background: var(--link); box-shadow: 0 0 12px var(--link); }
+  .nav-links{ display:flex; gap: 32px; font-size: 0.92rem; color: var(--text-muted); }
+  .nav-links a:hover{ color: var(--text); }
+  .nav-cta{
+    background: var(--link); color: #06251F; font-weight:600; padding: 9px 18px;
+    border-radius: 999px; font-size: 0.88rem;
+  }
+  .nav-toggle{ display:none; }
+  @media(max-width: 760px){
+    .nav-links{ display:none; }
+    .nav-cta{ padding: 8px 14px; font-size: 0.82rem; }
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{ position: relative; overflow:hidden; border-bottom: 1px solid var(--line); }
+  #net-canvas{ position:absolute; inset:0; width:100%; height:100%; opacity: 0.55; }
+  .hero-inner{ position: relative; z-index: 2; padding: 120px 24px 100px; max-width: var(--max); margin: 0 auto; }
+  .eyebrow{
+    font-family:'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--link);
+    display:inline-flex; align-items:center; gap:10px; margin-bottom: 22px;
+    border: 1px solid var(--link-dim); padding: 6px 14px; border-radius: 999px;
+  }
+  .hero h1{ font-size: clamp(2.3rem, 5.2vw, 4.1rem); max-width: 15ch; font-weight: 700; }
+  .hero h1 .hl{ color: var(--link); }
+  .hero p.lead{ margin-top: 24px; color: var(--text-muted); font-size: 1.1rem; max-width: 46ch; }
+  .hero-actions{ display:flex; gap: 16px; margin-top: 38px; flex-wrap: wrap; }
+  .btn{
+    padding: 14px 26px; border-radius: 999px; font-weight: 600; font-size: 0.95rem;
+    display:inline-flex; align-items:center; gap: 8px; transition: transform .15s ease, background .15s ease;
+  }
+  .btn-primary{ background: var(--link); color: #06251F; }
+  .btn-primary:hover{ transform: translateY(-2px); }
+  .btn-ghost{ border: 1px solid var(--line-strong); color: var(--text); }
+  .btn-ghost:hover{ background: var(--bg-panel); }
+
+  .hero-meta{
+    display:flex; gap: 40px; margin-top: 70px; flex-wrap: wrap;
+    font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; color: var(--text-faint);
+  }
+  .hero-meta span b{ color: var(--text-muted); font-weight: 500; }
+
+  /* ---------- SECTION HEADERS ---------- */
+  section{ padding: 100px 24px; }
+  .sec-head{ margin-bottom: 56px; max-width: 60ch; }
+  .sec-label{
+    font-family:'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--link);
+    text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 14px; display:block;
+  }
+  .sec-head h2{ font-size: clamp(1.7rem, 3.4vw, 2.4rem); }
+  .sec-head p{ color: var(--text-muted); margin-top: 14px; font-size: 1.02rem; }
+
+  /* ---------- SERVICES ---------- */
+  .services{ background: var(--bg-panel); border-bottom: 1px solid var(--line); }
+  .service-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow:hidden; }
+  .service-card{ background: var(--bg-panel); padding: 36px 30px; }
+  .service-card .tag{ font-family:'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-faint); }
+  .service-card h3{ margin-top: 14px; font-size: 1.25rem; }
+  .service-card p{ margin-top: 12px; color: var(--text-muted); font-size: 0.95rem; }
+  .service-card ul{ margin-top: 18px; list-style:none; display:flex; flex-direction:column; gap: 8px; }
+  .service-card li{ font-size: 0.88rem; color: var(--text-muted); display:flex; gap: 10px; align-items:baseline; }
+  .service-card li::before{ content:"→"; color: var(--link); flex-shrink:0; }
+  @media(max-width: 860px){ .service-grid{ grid-template-columns: 1fr; } }
+
+  /* ---------- PROCESS ---------- */
+  .process-list{ display:flex; flex-direction:column; }
+  .process-item{
+    display:grid; grid-template-columns: 90px 1fr; gap: 24px; padding: 30px 0; border-top: 1px solid var(--line);
+  }
+  .process-list .process-item:last-child{ border-bottom: 1px solid var(--line); }
+  .process-num{ font-family:'JetBrains Mono', monospace; color: var(--link); font-size: 1rem; padding-top: 4px; }
+  .process-item h3{ font-size: 1.15rem; }
+  .process-item p{ color: var(--text-muted); margin-top: 8px; font-size: 0.95rem; max-width: 60ch; }
+
+  /* ---------- TOOLS ---------- */
+  .tools{ background: var(--bg-panel); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .tools .wrap{ display:flex; align-items:center; gap: 40px; flex-wrap: wrap; justify-content: space-between; }
+  .tools-label{ font-family:'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.1em; }
+  .tools-chips{ display:flex; gap: 12px; flex-wrap: wrap; }
+  .chip{ border: 1px solid var(--line-strong); padding: 8px 18px; border-radius: 999px; font-size: 0.88rem; color: var(--text-muted); font-family:'JetBrains Mono', monospace; }
+
+  /* ---------- PRINCIPLES ---------- */
+  .principles{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+  .principle{ padding: 28px 0; border-top: 2px solid var(--line-strong); }
+  .principle .num{ font-family:'JetBrains Mono', monospace; color: var(--text-faint); font-size: 0.85rem; }
+  .principle h3{ margin-top: 12px; font-size: 1.1rem; }
+  .principle p{ margin-top: 10px; color: var(--text-muted); font-size: 0.92rem; }
+  @media(max-width: 760px){ .principles{ grid-template-columns: 1fr; } }
+
+  /* ---------- CONTACT ---------- */
+  .contact{ background: var(--bg-panel); border-top: 1px solid var(--line); }
+  .contact-box{
+    background: var(--bg-panel-2); border: 1px solid var(--line-strong); border-radius: var(--radius);
+    padding: 56px; display:flex; justify-content:space-between; align-items:center; gap: 40px; flex-wrap: wrap;
+  }
+  .contact-box h2{ font-size: clamp(1.6rem, 3vw, 2.1rem); max-width: 16ch; }
+  .contact-box p{ color: var(--text-muted); margin-top: 12px; max-width: 40ch; }
+  .contact-links{ display:flex; flex-direction:column; gap: 14px; }
+  .contact-links a{
+    display:flex; align-items:center; gap: 12px; font-family:'JetBrains Mono', monospace; font-size: 0.95rem;
+    border: 1px solid var(--line-strong); padding: 14px 22px; border-radius: 10px; min-width: 260px;
+    transition: border-color .15s ease, background .15s ease;
+  }
+  .contact-links a:hover{ border-color: var(--link); background: rgba(69,217,192,0.06); }
+  .contact-links .ic{ color: var(--link); }
+
+  footer{ padding: 36px 24px; text-align:center; color: var(--text-faint); font-size: 0.85rem; font-family:'JetBrains Mono', monospace; }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior: auto; }
+    #net-canvas{ display:none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo"><span class="logo-dot"></span>alaminsafwan<span style="color:var(--text-faint)">.com</span></div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#principles">Approach</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <!-- EDIT: change href to your contact section or Calendly/WhatsApp link -->
+    <a class="nav-cta" href="#contact">Get in touch</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <canvas id="net-canvas"></canvas>
+  <div class="hero-inner">
+    <div class="eyebrow"><span class="logo-dot"></span> Available for new SEO projects</div>
+    <h1>Backlinks that earn <span class="hl">rankings</span>, not just numbers.</h1>
+    <p class="lead">
+      I'm <strong>Al Amin Safwan</strong> — an SEO specialist focused on manual link building,
+      guest posting, and off‑page authority. Every link is outreach‑built and vetted, no PBNs,
+      no link farms, no shortcuts that put your site at risk.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#contact">Start a project →</a>
+      <a class="btn btn-ghost" href="#services">See services</a>
+    </div>
+    <div class="hero-meta">
+      <span><b>Focus</b> · Off-page SEO</span>
+      <span><b>Method</b> · Manual outreach only</span>
+      <span><b>Reporting</b> · Live link tracking</span>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-label">Services</span>
+      <h2>Three ways I build your site's authority</h2>
+      <p>Each service is scoped around one thing: links that come from real, relevant, editorially-run sites — the kind that move rankings and survive algorithm updates.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card">
+        <span class="tag">01 / Content-led</span>
+        <h3>Guest Posting</h3>
+        <p>Placement on niche-relevant blogs through direct editorial outreach — not marketplaces or PBN networks.</p>
+        <ul>
+          <li>Manual prospecting by niche & authority</li>
+          <li>Content written or briefed per site's guidelines</li>
+          <li>Do-follow placement, disclosed & compliant</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <span class="tag">02 / Outreach-led</span>
+        <h3>Manual Link Building</h3>
+        <p>One-to-one outreach to site owners for niche edits, resource mentions, and contextual links.</p>
+        <ul>
+          <li>Every domain vetted for DA/DR & real traffic</li>
+          <li>No link farms, no automated tools</li>
+          <li>Anchor text planned to stay natural</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <span class="tag">03 / Strategy-led</span>
+        <h3>Off-Page SEO</h3>
+        <p>Broader authority building — competitor gap analysis, digital PR angles, and link reclamation.</p>
+        <ul>
+          <li>Competitor backlink gap audits</li>
+          <li>Link earning strategy, not just building</li>
+          <li>Ongoing profile health monitoring</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-label">Process</span>
+      <h2>How a project runs, start to finish</h2>
+      <p>No black boxes — you see the target list, the pitch, and the live link before it's marked done.</p>
+    </div>
+    <div class="process-list">
+      <div class="process-item">
+        <div class="process-num">01</div>
+        <div><h3>Audit</h3><p>I review your current backlink profile and map the gap against 2–3 direct competitors, so the plan starts from real data, not guesswork.</p></div>
+      </div>
+      <div class="process-item">
+        <div class="process-num">02</div>
+        <div><h3>Target list</h3><p>I build a shortlist of relevant, authoritative domains in your niche — each one checked for genuine traffic and editorial activity, not just a DA score.</p></div>
+      </div>
+      <div class="process-item">
+        <div class="process-num">03</div>
+        <div><h3>Outreach & placement</h3><p>I pitch site owners directly, write or brief the content, and secure placement — every step done manually, by hand.</p></div>
+      </div>
+      <div class="process-item">
+        <div class="process-num">04</div>
+        <div><h3>Report</h3><p>You get a live-link report with URLs, anchor text, and authority metrics — so you can verify exactly what was delivered.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tools">
+  <div class="wrap">
+    <span class="tools-label">Tools I work with</span>
+    <div class="tools-chips">
+      <span class="chip">Ahrefs</span>
+      <span class="chip">SEMrush</span>
+      <span class="chip">Google Search Console</span>
+      <span class="chip">Moz</span>
+      <span class="chip">Screaming Frog</span>
+    </div>
+  </div>
+</section>
+
+<section id="principles">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-label">Approach</span>
+      <h2>Why work with a manual link builder</h2>
+      <p>SEO is full of shortcuts that work for a month and cost you a penalty later. Here's what I won't do — and what I do instead.</p>
+    </div>
+    <div class="principles">
+      <div class="principle">
+        <span class="num">Standard</span>
+        <h3>White-hat only</h3>
+        <p>No PBNs, no link farms, no paid link networks flagged by Google. Every placement can withstand a manual review.</p>
+      </div>
+      <div class="principle">
+        <span class="num">Standard</span>
+        <h3>Relevance over volume</h3>
+        <p>A handful of links from real, niche-relevant sites outperform dozens from irrelevant, low-quality domains.</p>
+      </div>
+      <div class="principle">
+        <span class="num">Standard</span>
+        <h3>Full transparency</h3>
+        <p>You get the live URL, the anchor text, and the metrics for every single link — nothing delivered as just a spreadsheet count.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-box">
+      <div>
+        <h2>Let's build your site's authority.</h2>
+        <p>Tell me your niche and current backlink profile — I'll reply with a short, honest read on what's realistic.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:alaminsafwan.work@gmail.com"><span class="ic">✉</span> alaminsafwan.work@gmail.com</a>
+        <a href="https://wa.me/8801729343482" target="_blank" rel="noopener"><span class="ic">↗</span> WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Al Amin Safwan · alaminsafwan.com
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // ---- Network graph hero animation ----
+  // Nodes drift and connect when close, evoking a backlink network converging on one site.
+  (function(){
+    var canvas = document.getElementById('net-canvas');
+    if(!canvas) return;
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(reduce) return;
+
+    var ctx = canvas.getContext('2d');
+    var hero = canvas.parentElement;
+    var W, H, DPR = Math.min(window.devicePixelRatio || 1, 2);
+    var nodes = [];
+    var NODE_COUNT = 46;
+    var LINK_DIST = 130;
+    var linkColor = '69,217,192';
+
+    function resize(){
+      W = hero.offsetWidth; H = hero.offsetHeight;
+      canvas.width = W * DPR; canvas.height = H * DPR;
+      canvas.style.width = W + 'px'; canvas.style.height = H + 'px';
+      ctx.setTransform(DPR,0,0,DPR,0,0);
+    }
+
+    function initNodes(){
+      nodes = [];
+      for(var i=0;i<NODE_COUNT;i++){
+        nodes.push({
+          x: Math.random()*W,
+          y: Math.random()*H,
+          vx: (Math.random()-0.5)*0.25,
+          vy: (Math.random()-0.5)*0.25,
+          r: Math.random()*1.6 + 1
+        });
+      }
+    }
+
+    function step(){
+      ctx.clearRect(0,0,W,H);
+      for(var i=0;i<nodes.length;i++){
+        var n = nodes[i];
+        n.x += n.vx; n.y += n.vy;
+        if(n.x < 0 || n.x > W) n.vx *= -1;
+        if(n.y < 0 || n.y > H) n.vy *= -1;
+      }
+      for(var i=0;i<nodes.length;i++){
+        for(var j=i+1;j<nodes.length;j++){
+          var a = nodes[i], b = nodes[j];
+          var dx = a.x-b.x, dy = a.y-b.y;
+          var dist = Math.sqrt(dx*dx+dy*dy);
+          if(dist < LINK_DIST){
+            var op = (1 - dist/LINK_DIST) * 0.5;
+            ctx.strokeStyle = 'rgba('+linkColor+','+op+')';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y);
+            ctx.stroke();
+          }
+        }
+      }
+      for(var i=0;i<nodes.length;i++){
+        var n = nodes[i];
+        ctx.fillStyle = 'rgba('+linkColor+',0.9)';
+        ctx.beginPath();
+        ctx.arc(n.x,n.y,n.r,0,Math.PI*2);
+        ctx.fill();
+      }
+      requestAnimationFrame(step);
+    }
+
+    window.addEventListener('resize', function(){ resize(); initNodes(); });
+    resize(); initNodes(); step();
+  })();
+</script>
+
+</body>
+</html>
